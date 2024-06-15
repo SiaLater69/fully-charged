@@ -1,38 +1,76 @@
 .App {
   text-align: center;
+  background-color: whitesmoke;
+}
+  
+
+.card {
+ height: 100vh;
+ margin: 0 auto;
+ z-index: 1;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tools {
+ display: flex;
+ padding: 10px 10px;
+ justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.text {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(0, 0, 255, 0.527);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.circle {
+ padding: 0 4px;
+}
+.card__content{
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  position: relative;
+
+}
+
+/* Set the container to take up 100vh and use flexbox for layout */
+/* Set the container to take up 100vh and use flexbox for layout */
+.container {
   display: flex;
-  flex-direction: column;
+  height: 100vh;
+}
+
+/* Style the left and right sides */
+.left-side, .right-side {
+  flex: 1; /* Each side takes up half the container */
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Style the left side to ensure elements stack vertically */
+.left-side {
+  flex-direction: column; /* Make children stack vertically */
+  background-color: whitesmoke;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* Additional styling for the right side */
+.right-side img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.text2{
+  font-family: "PT Sans", sans-serif;
+  color: #6b6d70;
+  max-width: 600px;
+}
+.pt-sans-bold-italic {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
 }
