@@ -22,7 +22,7 @@ const Carousel = ({ images }) => {
 
   return (
     <div className="carousel">
-      <button className="right-arrow" onClick={prevSlide}>&#10094;</button>
+      {/* <button className="right-arrow" onClick={prevSlide}>&#10094;</button> */}
       <div className="carousel-inner" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
         {images.map((image, index) => (
           <div className="carousel-item" key={index}>
