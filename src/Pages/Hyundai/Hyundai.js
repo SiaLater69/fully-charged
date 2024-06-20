@@ -1,5 +1,3 @@
-import React from 'react'
-import Carousel from '../../components/Carousel';;
 import hyndaiLogo from '../../img/hyundai/logo.png'
 import ioniq1 from '../../img/hyundai/ioniq1.jpg'
 import ioniq2 from '../../img/hyundai/ioniq2.jpg'
@@ -7,6 +5,8 @@ import ioniq3 from '../../img/hyundai/ioniq3.jpg'
 import ioniq4 from '../../img/hyundai/ioniq4.jpg'
 import ioniq5 from '../../img/hyundai/ioniq5.jpg'
 import ioniq6 from '../../img/hyundai/ioniq6.jpg'
+import React from 'react'
+import Carousel from '../../components/Carousel'
 
 const images = [
     ioniq1,

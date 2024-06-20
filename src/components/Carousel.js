@@ -4,13 +4,13 @@ import './Carousel.css';
 const Carousel = ({ images }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const prevSlide = () => {
-    const lastIndex = images.length - 1;
-    const shouldResetIndex = currentIndex === 0;
-    const index = shouldResetIndex ? lastIndex : currentIndex - 1;
+  // const prevSlide = () => {
+  //   const lastIndex = images.length - 1;
+  //   const shouldResetIndex = currentIndex === 0;
+  //   const index = shouldResetIndex ? lastIndex : currentIndex - 1;
 
-    setCurrentIndex(index);
-  };
+  //   setCurrentIndex(index);
+  // };
 
   const nextSlide = () => {
     const lastIndex = images.length - 1;

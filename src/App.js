@@ -8,6 +8,7 @@ import Hyundai from './Pages/Hyundai/Hyundai';
 function App() {
   return (
     <div className="App">
+    <ProgressBar/>
     <Porsche/>
     <Tesla/>
     <Hyundai/>
