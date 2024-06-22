@@ -53,7 +53,7 @@ const Jeep = () => {
     <a className='text' href="https://www.topgear.com/car-reviews/jeep/avenger">Read the full Jeep Avenger review</a>
         </div>
         
-        <div className="right-side2">
+        <div className="right-side">
         <img src={jeep6} alt='jeep'/>
         </div>
         </div>

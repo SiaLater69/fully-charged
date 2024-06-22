@@ -68,7 +68,7 @@ const Hyundai = () => {
 “So it has many of the talents you expect from an electric car, and many more that so far are unique in EVs. Which makes us call it a new and brilliant chapter.</p>
         <a href="https://www.topgear.com/car-reviews/hyundai/ioniq-5-n" className='text'>Read the full IONIQ 5 N review</a>
       </div>
-      <div className="right-side2">
+      <div className="right-side">
       <img src={ioniq6} alt='ioniq5 back'/>
       </div>
     </div>
