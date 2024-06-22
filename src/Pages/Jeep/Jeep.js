@@ -17,14 +17,16 @@ const Jeep = () => {
   return (
     <div>
           {/* Start of Jeep */}
+          <div class="container">
      <div class="card">
-        <div class="tools">
-        <h1 className='pt-sans-bold-italic' style={{fontSize: '60px',marginTop: '10px', position: 'absolute'}}> Jeep</h1> 
+        <div class="card__content">
+        <h1 className='bold3'> Jeep</h1> 
         <img src={jeep} width={'100%'} alt='jeep'/> 
         </div>
      </div>
      <div class="card">
      <JeepCarousel images={images1}/>
+     </div>
      </div>
 
      
@@ -50,7 +52,8 @@ const Jeep = () => {
         <p className='text2'>Well, who'da thunk it? Jeep has built an excellent city car. Like any decent EV the powertrain is silent and smooth, and it qualifies for various cheap parking and congestion-zone incentives. <br/>It's small and manoeuvrable and the boxy outline helps you judge the corners. <br/>The bash-resistant exterior and speedbump-happy suspension calm your nerves.<br/>That's not all, mind. It has OK range and quick-enough rapid charging, so its long-distance compass is perfectly tolerable. The cruising manners are fine, and it’s even fairly chuckable in corners. Thank the small size and long-travel suspension.</p>
     <a className='text' href="https://www.topgear.com/car-reviews/jeep/avenger">Read the full Jeep Avenger review</a>
         </div>
-        <div className="right-side">
+        
+        <div className="right-side2">
         <img src={jeep6} alt='jeep'/>
         </div>
         </div>

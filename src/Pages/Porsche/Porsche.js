@@ -56,7 +56,7 @@ const Porsche = () => {
         <a href="https://www.topgear.com/car-reviews/porsche/taycan" className='text'>Read the full Porsche Taycan review</a>
 
       </div>
-      <div className="right-side">
+      <div className="right-side2">
       <img src={back} alt='Porsche back'/>
       </div>
     </div>

@@ -61,7 +61,7 @@ function Tesla() {
         <p className='text2'>This is the future we were promised – a car with sentience, a sense of humour, and a fresh take on the old norms. After trying this, your old repmobile will just feel a bit dull. The Model S has been in production since mid-2017, but even heading into old age, nothing on the market has yet managed to beat it on all fronts. While not without flaws, it is quite simply one of the most interesting, compelling cars in the world right now. We might even look back on it as the car that changed the way we all drive.</p>
         <a href="https://www.topgear.com/car-reviews/tesla/model-s" className='text'>Read the full Tesla Model S review</a>
       </div>
-      <div className="right-side">
+      <div className="right-side2">
       <img src={backTesla} alt='porsche'/>
       </div>
     </div>
