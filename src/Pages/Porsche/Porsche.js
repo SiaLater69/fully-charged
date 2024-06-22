@@ -18,7 +18,7 @@ const Porsche = () => {
             <br/><br/><br/>
           </div>
           <div class="card__content">
-          <h1 style={{color: 'rgb(214, 214, 186)',fontSize: '130px', position: 'absolute', marginLeft: '20%'}}>Porsche Taycan</h1>
+          <h1 className='bold' >Porsche Taycan</h1>
             <img src={porsche} alt='porsche'/>
           </div>
       </div>

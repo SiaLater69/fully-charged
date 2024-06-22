@@ -5,9 +5,15 @@
   
 
 .card {
- height: 100vh;
  margin: 0 auto;
  z-index: 1;
+ overflow: hidden;
+}
+.svg {
+  width: 400px;
+  margin-left: -50%;
+  margin-right: -50%;
+  justify-content: center;
 }
 
 .tools {
@@ -63,6 +69,26 @@
   max-height: 100%;
   object-fit: cover;
 }
+.bold{
+  color: rgb(214, 214, 186);
+  font-size: 130px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  margin-left: 20%;
+}
+
+.bold1{
+  color: black;
+  font-size: 130px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 33%;
+}
 
 .text2{
   font-family: "PT Sans", sans-serif;
@@ -77,4 +103,49 @@
 
 .spacing{
   margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-side, .right-side {
+    width: 100%;
+    text-align: center;
+  }
+
+  .card__content img {
+    width: 100%;
+    height: auto;
+  }
+
+  .pt-sans-bold-italic {
+    font-size: 24px;
+  }
+
+  .text2 {
+    font-size: 14px;
+  }
+  .text1 {
+    font-size: 14px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+  .bold{
+    font-size: 62px;
+    margin-left: 4%;
+  }
+
+  .bold1{
+    font-size: 62px;
+    margin-top: 35%;
+    margin-left: 17%;
+  }
+  .svg {
+    width: 50px;
+  }
 }
