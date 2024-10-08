@@ -18,20 +18,20 @@ const Hyundai = () => {
   return (
     <div>
             {/* Hyndai starts */}
-    <div class="card">
-        <div class="tools">
-            <div class="circle">
+    <div className="card">
+        <div className="tools">
+            <div className="circle">
             <br/>
             <img src={hyndaiLogo} alt='hyndaiLogo'/>
             </div>
           </div>
-          <div class="card__content">
+          <div className="card__content">
           {/* <h1 style={{color: 'red',fontSize: '130px',marginTop: '10px', marginLeft: '20%', position: 'absolute'}}>lorem</h1> */}
           <Carousel images={images}/>  
           </div>
       </div>
     {/* Second Image */}
-      <div class="card">
+      <div className="card">
       <h1 className='pt-sans-bold-italic'>Functional Aesthetics</h1>
       <h2 className='pt-sans-bold-italic'>Designed to perform</h2>
       <br/>

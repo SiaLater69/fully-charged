@@ -17,16 +17,16 @@ const Jeep = () => {
   return (
     <div>
           {/* Start of Jeep */}
-          <div class="container">
-     <div class="card">
-        <div class="card__content">
+          <div className="container">
+     <div className="card">
+        <div className="card__content">
         <h1 className='bold3'> Jeep</h1> 
         <img src={jeep} width={'100%'} alt='jeep'/> 
         </div>
      </div>
-     <div class="card">
-     <JeepCarousel images={images1}/>
      </div>
+     <div className="card">
+     <JeepCarousel images={images1}/>
      </div>
 
      

@@ -41,7 +41,7 @@
     right: 10px;
   }
   
-  @media (max-width: 768px) {
+  @media (max-width: 440px) {
     .carousel {
       width: 100%;
       margin: 0;
@@ -71,3 +71,31 @@
       right: 5px;
     }
   }
+
+  @media (min-width: 780px) and (max-width: 850px){
+    .carousel1 {
+      width: 100%;
+      margin: 0;
+    }
+  
+  
+    .carousel-item1 {
+      min-width: 100%;
+    }
+  
+    .right-arrow1, .left-arrow {
+      top: 45%;
+      transform: translateY(0);
+      background-color: rgba(0, 0, 0, 0.8);
+      font-size: 18px;
+      padding: 8px;
+    }
+  
+    .left-arrow {
+      left: 5px;
+    }
+  
+    .right-arrow1 {
+      right: 5px;
+    }
+  } 
